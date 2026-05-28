@@ -10,7 +10,6 @@
 var age = 23; //accessed anywhere in code  local or global// NUMBER
 let name = "Zandie " //can only be accessed within a code block  // STRING
 const surname = "Zulu" //won't change, stays the same  // STRING
-surname = "Hamilton"
 let isEligible = true   //boolean
 
 
@@ -25,8 +24,12 @@ console.log(name)
     z+=5;
     z-= 4;
     z*=2;
+
+
     //Arithmetic operators
         // +  -  *  /
+
+
 console.log(z)
 
 let y = 20;  //assignment
@@ -53,7 +56,7 @@ let num = 5 == 5;  // comparison
 let num1 = 10 =="10"  // doesn't check the data type 
 let num2 = 10 === "10"  // checks the data type
 let num3 = "zandie@gmail.com" != "Zandie@gmail.com"  //  != means its not equal to, no match, doesn't check for data type
- // !== checks for the data type
+ // !==  checks if its not equal and checks for the data type if they match
 let num4 = 5>=4;
 let num5 = 5>=5;
 
@@ -63,3 +66,20 @@ console.log(num2)
 console.log(num3)
 console.log(num4)
 console.log(num5)
+
+//Logical operators
+// || means or   two conditons but 1 must be true
+// && means and  two conditions and all must be true
+
+let num6 = 20;
+let num7 = 20;
+let num8 = num6 !== 20 && 0.5 <=1;
+let num9 = num6 > num7 || 0.5 <=1;
+
+console.log(num8)
+console.log(num9)
+
+//Conditional Statements
+    // Helps a program to make decisions
+
+   
